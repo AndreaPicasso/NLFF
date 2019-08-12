@@ -1,0 +1,234 @@
+AAPL OVERSAMPLING ALSO IN VALIDATION SVM
+Working on... AAPL
+/home/andrea/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:32: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims)
+Window: 2
+[[  0 330]
+ [  0 370]]
+F1,score 0.691588785046729
+Accuracy: 0.5285714285714286
+Window: 4
+[[209 114]
+ [208 168]]
+F1,score 0.5106382978723405
+Accuracy: 0.5393419170243204
+Window: 6
+[[178 150]
+ [141 230]]
+F1,score 0.6125166444740346
+Accuracy: 0.5836909871244635
+Window: 10
+[[226  98]
+ [169 205]]
+F1,score 0.6056129985228951
+Accuracy: 0.6174785100286533
+Window: 16
+[[201 123]
+ [197 176]]
+F1,score 0.523809523809524
+Accuracy: 0.5408895265423243
+Window: 24
+[[197 109]
+ [208 181]]
+F1,score 0.5331369661266568
+Accuracy: 0.543884892086331
+Window: 32
+[[194 105]
+ [160 235]]
+F1,score 0.6394557823129252
+Accuracy: 0.6181556195965417
+Window: 42
+[[219  76]
+ [189 208]]
+F1,score 0.6108663729809104
+Accuracy: 0.6170520231213873
+Window: 56
+[[222  85]
+ [168 214]]
+F1,score 0.6284875183553598
+Accuracy: 0.6328011611030478
+Window: 66
+[[  3 316]
+ [ 10 358]]
+F1,score 0.6871401151631478
+Accuracy: 0.5254730713245997
+Window: 87
+[[  1 332]
+ [  3 347]]
+F1,score 0.6744412050534498
+Accuracy: 0.5095168374816984
+Window: 100
+[[139 184]
+ [117 240]]
+F1,score 0.614596670934699
+Accuracy: 0.5573529411764706
+Window: 112
+[[  0 317]
+ [  1 360]]
+F1,score 0.6936416184971098
+Accuracy: 0.5309734513274337
+Window: 125
+[[  6 306]
+ [  6 357]]
+F1,score 0.695906432748538
+Accuracy: 0.5377777777777778
+Window: 140
+[[288  51]
+ [209 124]]
+F1,score 0.4881889763779527
+Accuracy: 0.6130952380952381
+Window: 160
+[[289  86]
+ [147 146]]
+F1,score 0.5561904761904762
+Accuracy: 0.6511976047904192
+Window: 175
+[[333  47]
+ [218  67]]
+F1,score 0.33583959899749377
+Accuracy: 0.6015037593984962
+Window: 190
+[[315  44]
+ [239  64]]
+F1,score 0.3114355231143552
+Accuracy: 0.5725075528700906
+Window: 205
+[[320  21]
+ [245  73]]
+F1,score 0.35436893203883496
+Accuracy: 0.5963581183611533
+Window: 220
+[[303  18]
+ [235 100]]
+F1,score 0.44150110375275936
+Accuracy: 0.614329268292683
+Window: 245
+[[  0 260]
+ [  0 391]]
+F1,score 0.7504798464491362
+Accuracy: 0.6006144393241167
+Window: 260
+[[219  34]
+ [211 184]]
+F1,score 0.6003262642740619
+Accuracy: 0.6219135802469136
+Window: 300
+[[ 35 222]
+ [ 48 335]]
+F1,score 0.7127659574468086
+Accuracy: 0.578125
+Window: 350
+[[  1 235]
+ [  0 394]]
+F1,score 0.7702834799608993
+Accuracy: 0.626984126984127
+Window: 400
+[[  0 260]
+ [  5 355]]
+F1,score 0.7282051282051283
+Accuracy: 0.5725806451612904
+
+aapl oversampling also in validation ksvm
+Working on... AAPL
+/home/andrea/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:32: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims)
+Window: 2
+[[  0 330]
+ [  0 370]]
+accuracy= 0.5285714285714286
+Window: 4
+[[134 189]
+ [136 240]]
+accuracy= 0.5350500715307582
+Window: 6
+[[146 182]
+ [150 221]]
+accuracy= 0.525035765379113
+Window: 10
+[[177 147]
+ [156 218]]
+accuracy= 0.5659025787965616
+Window: 16
+[[132 192]
+ [160 213]]
+accuracy= 0.4949784791965567
+Window: 24
+[[203 103]
+ [219 170]]
+accuracy= 0.5366906474820143
+Window: 32
+[[193 106]
+ [169 226]]
+accuracy= 0.6037463976945245
+Window: 42
+[[200  95]
+ [182 215]]
+accuracy= 0.5997109826589595
+Window: 56
+[[  4 303]
+ [  4 378]]
+accuracy= 0.5544267053701016
+Window: 66
+[[261  58]
+ [190 178]]
+accuracy= 0.6390101892285298
+Window: 87
+[[208 125]
+ [118 232]]
+accuracy= 0.6442166910688141
+Window: 100
+[[283  40]
+ [240 117]]
+accuracy= 0.5882352941176471
+Window: 112
+[[243  74]
+ [206 155]]
+accuracy= 0.5870206489675516
+Window: 125
+[[  1 311]
+ [  3 360]]
+accuracy= 0.5348148148148149
+Window: 140
+[[200 139]
+ [115 218]]
+accuracy= 0.6220238095238095
+Window: 160
+[[128 247]
+ [ 60 233]]
+accuracy= 0.5404191616766467
+Window: 175
+[[194 186]
+ [ 75 210]]
+accuracy= 0.6075187969924812
+Window: 190
+[[120 239]
+ [ 48 255]]
+accuracy= 0.5664652567975831
+Window: 205
+[[ 29 312]
+ [  6 312]]
+accuracy= 0.5174506828528073
+Window: 220
+[[298  23]
+ [222 113]]
+accuracy= 0.6265243902439024
+Window: 245
+[[ 81 179]
+ [ 92 299]]
+accuracy= 0.5837173579109063
+Window: 260
+[[ 55 198]
+ [ 49 346]]
+accuracy= 0.6188271604938271
+Window: 300
+[[  0 257]
+ [  0 383]]
+accuracy= 0.5984375
+Window: 350
+[[  0 236]
+ [  0 394]]
+accuracy= 0.6253968253968254
+Window: 400
+[[  0 260]
+ [  0 360]]
+accuracy= 0.5806451612903226

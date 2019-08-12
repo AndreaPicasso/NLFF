@@ -1,0 +1,202 @@
+============================================================
+============================================================
+Working on window: 0
+ModelSelection
+Best Accuracy on validation: 0.5222204629704239
+BestLearning: 0.0001
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5014577336804859
+============================================================
+============================================================
+Working on window: 4
+ModelSelection
+Best Accuracy on validation: 0.5379509198240637
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.526315794658591
+============================================================
+============================================================
+Working on window: 12
+ModelSelection
+Best Accuracy on validation: 0.5751127137634191
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5073313821445813
+============================================================
+============================================================
+Working on window: 20
+ModelSelection
+Best Accuracy on validation: 0.6143464115904828
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5221238941569596
+============================================================
+============================================================
+Working on window: 24
+ModelSelection
+Best Accuracy on validation: 0.6083986966941741
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5473372781505951
+============================================================
+============================================================
+Working on window: 26
+ModelSelection
+Best Accuracy on validation: 0.6100925972307818
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5502958566214912
+============================================================
+============================================================
+Working on window: 30
+ModelSelection
+Best Accuracy on validation: 0.6195533781635021
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5459940647955112
+============================================================
+============================================================
+Working on window: 35
+ModelSelection
+Best Accuracy on validation: 0.6043117769824464
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5565476189145729
+============================================================
+============================================================
+Working on window: 40
+ModelSelection
+Best Accuracy on validation: 0.5919955807979459
+BestLearning: 0.001
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5611940310962166
+============================================================
+============================================================
+Working on window: 48
+ModelSelection
+Best Accuracy on validation: 0.602541804357472
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5479041900106533
+============================================================
+============================================================
+Working on window: 60
+ModelSelection
+Best Accuracy on validation: 0.6285828196350888
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5317220537053854
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((99
+See with sigmoid and retranin network
+============================================================
+============================================================
+Working on window: 1
+ModelSelection
+Best Accuracy on validation: 0.539310276582577
+BestLearning: 0.0001
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.4938271600339148
+============================================================
+============================================================
+Working on window: 4
+ModelSelection
+Best Accuracy on validation: 0.5394160654090403
+BestLearning: 1e-05
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5505952398691859
+============================================================
+============================================================
+Working on window: 12
+ModelSelection
+Best Accuracy on validation: 0.5758426408488551
+BestLearning: 0.1
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000007181282
+============================================================
+============================================================
+Working on window: 20
+ModelSelection
+Best Accuracy on validation: 0.6143464115904828
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000000919824
+============================================================
+============================================================
+Working on window: 24
+ModelSelection
+Best Accuracy on validation: 0.6106154721627957
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5326797374907661
+============================================================
+============================================================
+Working on window: 26
+ModelSelection
+Best Accuracy on validation: 0.6137854071390818
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000000493416
+============================================================
+============================================================
+Working on window: 30
+ModelSelection
+Best Accuracy on validation: 0.6217592604945299
+BestLearning: 0.1
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000003895728
+============================================================
+============================================================
+Working on window: 35
+ModelSelection
+Best Accuracy on validation: 0.6140187970762625
+BestLearning: 0.001
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.4630872513723853
+============================================================
+============================================================
+Working on window: 40
+ModelSelection
+Best Accuracy on validation: 0.6031232752791421
+BestLearning: 0.1
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.46180555664209855
+============================================================
+============================================================
+Working on window: 48
+ModelSelection
+Best Accuracy on validation: 0.6070755283338543
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5
+============================================================
+============================================================
+Working on window: 60
+ModelSelection
+Best Accuracy on validation: 0.6278309398686174
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5
+
+​

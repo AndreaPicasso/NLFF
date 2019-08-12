@@ -1,0 +1,309 @@
+
+KSVM ['open_6_d','rsi_3','rsi_6','rsi_12'] no permutation ADI
+============================================================
+============================================================
+Working on window: 2
+3515
+Model Selection...
+ACCURACY on val: 0.7455523629942234
+Gamma: 0.01
+C: 100.0
+Accuracy on TEST set: 0.7743362831858407
+============================================================
+============================================================
+Working on window: 6
+3515
+Model Selection...
+ACCURACY on val: 0.7994580824455766
+Gamma: 1.0
+C: 1.0
+Accuracy on TEST set: 0.8025078369905956
+============================================================
+============================================================
+Working on window: 12
+3515
+Model Selection...
+ACCURACY on val: 0.6883617529880477
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.7082018927444795
+============================================================
+============================================================
+Working on window: 30
+3515
+Model Selection...
+ACCURACY on val: 0.6503105590062112
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.5924764890282131
+[0.7743362831858407, 0.8025078369905956, 0.7082018927444795, 0.5924764890282131]
+
+
+KSVM ['open_6_d','rsi_3','rsi_6','rsi_12'] no permutation AAPL
+============================================================
+============================================================
+Working on window: 2
+3209
+Model Selection...
+ACCURACY on val: 0.7332531380753139
+Gamma: 0.01
+C: 100.0
+Accuracy on TEST set: 0.7387096774193549
+============================================================
+============================================================
+Working on window: 6
+3209
+Model Selection...
+ACCURACY on val: 0.7974701768819416
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.7740384615384616
+============================================================
+============================================================
+Working on window: 12
+3209
+Model Selection...
+ACCURACY on val: 0.7000000000000001
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.639871382636656
+============================================================
+============================================================
+Working on window: 30
+3209
+Model Selection...
+ACCURACY on val: 0.6227128974757058
+Gamma: 1.0
+C: 100.0
+
+
+KSVM ['open_6_d','rsi_3','rsi_6','rsi_12'] no permutation ADBE
+============================================================
+Working on window: 2
+3055
+Model Selection...
+ACCURACY on val: 0.7381818181818182
+Gamma: 1.0
+C: 100.0
+Accuracy on TEST set: 0.7277777777777777
+============================================================
+============================================================
+Working on window: 6
+3055
+Model Selection...
+ACCURACY on val: 0.7793161671591389
+Gamma: 1.0
+C: 1.0
+Accuracy on TEST set: 0.8201581027667985
+============================================================
+============================================================
+Working on window: 12
+3055
+Model Selection...
+ACCURACY on val: 0.6852040816326531
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.6756756756756757
+============================================================
+============================================================
+Working on window: 30
+3055
+Model Selection...
+ACCURACY on val: 0.6398465588084232
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.6709183673469388
+============================================================
+============================================================
+Working on window: 60
+3055
+Model Selection...
+ACCURACY on val: 0.60633431085044
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.5428571428571428
+
+KSVM ['rsi_3','rsi_6','rsi_12'] permutation adbe
+============================================================
+============================================================
+Working on window: 2
+Model Selection...
+ACCURACY on val: 0.5514978091746401
+Gamma: 100.0
+C: 316.22776601683796
+Accuracy on TEST set: 0.5313653136531366
+============================================================
+============================================================
+Working on window: 6
+Model Selection...
+ACCURACY on val: 0.5497824510514866
+Gamma: 100.0
+C: 0.31622776601683794
+Accuracy on TEST set: 0.5220883534136547
+============================================================
+============================================================
+Working on window: 12
+Model Selection...
+ACCURACY on val: 0.5675160370634356
+Gamma: 100.0
+C: 0.31622776601683794
+Accuracy on TEST set: 0.575107296137339
+============================================================
+============================================================
+Working on window: 30
+Model Selection...
+ACCURACY on val: 0.5521715604934709
+Gamma: 10000.0
+C: 10.0
+Accuracy on TEST set: 0.5583756345177665
+============================================================
+============================================================
+Working on window: 60
+Model Selection...
+ACCURACY on val: 0.5471830985915492
+Gamma: 100.0
+C: 0.31622776601683794
+Accuracy on TEST set: 0.5617977528089888
+============================================================
+============================================================
+Working on window: 100
+Model Selection...
+ACCURACY on val: 0.5376000000000001
+Gamma: 10000.0
+C: 316.22776601683796
+Accuracy on TEST set: 0.5185185185185185
+============================================================
+============================================================
+Working on window: 200
+Model Selection...
+ACCURACY on val: 0.5669374104156714
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.5346534653465347
+============================================================
+============================================================
+Working on window: 500
+Model Selection...
+ACCURACY on val: 0.6286764705882353
+Gamma: 1.0
+C: 10000.0
+Accuracy on TEST set: 0.45454545454545453
+
+KSVM ['rsi_3','rsi_6','rsi_12'] no permutation adbe
+============================================================
+============================================================
+Working on window: 2
+3517
+Model Selection...
+ACCURACY on val: 0.5619585151457662
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.4872611464968153
+============================================================
+============================================================
+Working on window: 6
+3517
+Model Selection...
+ACCURACY on val: 0.5713938353715227
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.4765886287625418
+============================================================
+============================================================
+Working on window: 12
+3517
+Model Selection...
+ACCURACY on val: 0.5813280749519538
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.4660377358490566
+============================================================
+============================================================
+Working on window: 30
+3517
+Model Selection...
+ACCURACY on val: 0.5871905107220553
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.49156118143459915
+============================================================
+============================================================
+Working on window: 60
+3517
+Model Selection...
+ACCURACY on val: 0.5746502463054186
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.5153508771929824
+============================================================
+============================================================
+Working on window: 100
+3517
+Model Selection...
+ACCURACY on val: 0.6194142654700048
+Gamma: 100.0
+C: 100.0
+Accuracy on TEST set: 0.4624413145539906
+============================================================
+============================================================
+Working on window: 200
+3517
+Model Selection...
+ACCURACY on val: 0.605203081232493
+Gamma: 100.0
+C: 10000.0
+Accuracy on TEST set: 0.5833333333333334
+============================================================
+============================================================
+Working on window: 500
+3517
+Model Selection...
+ACCURACY on val: 0.6076023391812866
+Gamma: 100.0
+C: 100.0
+PROBLEM BECAUSE TOO UNBALANCED NO FOUND POSITIVE OR NEGATIVE FOR BALANCING
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-4-bb09d2fdeec7> in <module>()
+    103     rbf_svm=svm.SVC(kernel='rbf',C=maxc,gamma=maxg)
+    104     rbf_svm.fit(x_tvnew,y_tvnew)
+--> 105     testacc=rbf_svm.score(x_testnew,y_testnew)
+    106     print('Accuracy on TEST set:',testacc)
+    107     accintime.append(testacc)
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/base.py in score(self, X, y, sample_weight)
+    347         """
+    348         from .metrics import accuracy_score
+--> 349         return accuracy_score(y, self.predict(X), sample_weight=sample_weight)
+    350 
+    351 
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/svm/base.py in predict(self, X)
+    546             Class labels for samples in X.
+    547         """
+--> 548         y = super(BaseSVC, self).predict(X)
+    549         return self.classes_.take(np.asarray(y, dtype=np.intp))
+    550 
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/svm/base.py in predict(self, X)
+    306         y_pred : array, shape (n_samples,)
+    307         """
+--> 308         X = self._validate_for_predict(X)
+    309         predict = self._sparse_predict if self._sparse else self._dense_predict
+    310         return predict(X)
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/svm/base.py in _validate_for_predict(self, X)
+    437         check_is_fitted(self, 'support_')
+    438 
+--> 439         X = check_array(X, accept_sparse='csr', dtype=np.float64, order="C")
+    440         if self._sparse and not sp.isspmatrix(X):
+    441             X = sp.csr_matrix(X)
+
+~/anaconda3/lib/python3.6/site-packages/sklearn/utils/validation.py in check_array(array, accept_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, warn_on_dtype, estimator)
+    460                              " minimum of %d is required%s."
+    461                              % (n_samples, shape_repr, ensure_min_samples,
+--> 462                                 context))
+    463 
+    464     if ensure_min_features > 0 and array.ndim == 2:
+
+ValueError: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required.

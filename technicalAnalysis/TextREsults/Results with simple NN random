@@ -1,0 +1,101 @@
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 1
+ModelSelection
+Best Accuracy on validation: 0.553734269977486
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4781341196931138
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 4
+ModelSelection
+Best Accuracy on validation: 0.5348355080314846
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5481049594830495
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 12
+ModelSelection
+Best Accuracy on validation: 0.5051465219682982
+BestLearning: 1e-05
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4752186631930465
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 20
+ModelSelection
+Best Accuracy on validation: 0.5232889088891202
+BestLearning: 1e-05
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5247813463645495
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 24
+ModelSelection
+Best Accuracy on validation: 0.5131334021413224
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5189504455720718
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 26
+ModelSelection
+Best Accuracy on validation: 0.5152332652162763
+BestLearning: 0.001
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5685131232696791
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 30
+ModelSelection
+Best Accuracy on validation: 0.5305617325446926
+BestLearning: 0.001
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.47813412017099377
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 35
+ModelSelection
+Best Accuracy on validation: 0.508034492404965
+BestLearning: 0.1
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5160349895064407
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 40
+ModelSelection
+Best Accuracy on validation: 0.5283243477268061
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5306122504587424
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 48
+ModelSelection
+Best Accuracy on validation: 0.4993176855551217
+BestLearning: 1e-05
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5218658959900325
+============================================================
+============================================================
+Working on window: THIS TIME IS NOT REAL WINDOW BECAUSE RANDOM 60
+ModelSelection
+Best Accuracy on validation: 0.5319845616346937
+BestLearning: 0.01
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4664723097669835
+
+​

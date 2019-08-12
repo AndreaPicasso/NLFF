@@ -1,0 +1,246 @@
+============================================================
+============================================================
+Working on window: 0
+ModelSelection
+Best Accuracy on validation: 0.5440019097077107
+BestLearning: 0.001
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4810495707627288
+============================================================
+============================================================
+Working on window: 4
+ModelSelection
+Best Accuracy on validation: 0.551777220449693
+BestLearning: 0.001
+BestDrop: 0.5
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5467836286066569
+============================================================
+============================================================
+Working on window: 12
+ModelSelection
+Best Accuracy on validation: 0.5896736838113071
+BestLearning: 0.001
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4868035226011556
+============================================================
+============================================================
+Working on window: 20
+ModelSelection
+Best Accuracy on validation: 0.6195098093822435
+BestLearning: 0.01
+BestDrop: 0.25
+BestNeuron: 5
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5516224196702683
+============================================================
+============================================================
+Working on window: 24
+ModelSelection
+Best Accuracy on validation: 0.623131812384559
+BestLearning: 0.01
+BestDrop: 0
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.4644970444179851
+============================================================
+============================================================
+Working on window: 26
+ModelSelection
+Best Accuracy on validation: 0.6226579567311993
+BestLearning: 1e-05
+BestDrop: 0.5
+BestNeuron: 2
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5502958566214912
+============================================================
+============================================================
+Working on window: 30
+ModelSelection
+Best Accuracy on validation: 0.6254575165844884
+BestLearning: 0.001
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5459940647955112
+============================================================
+============================================================
+Working on window: 35
+ModelSelection
+Best Accuracy on validation: 0.6132780561589154
+BestLearning: 0.001
+BestDrop: 0
+BestNeuron: 5
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5565476189145729
+============================================================
+============================================================
+Working on window: 40
+ModelSelection
+Best Accuracy on validation: 0.6165395286327539
+BestLearning: 0.01
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.6626865663635196
+============================================================
+============================================================
+Working on window: 48
+ModelSelection
+Best Accuracy on validation: 0.6190775446591253
+BestLearning: 0.01
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5658682636961253
+============================================================
+============================================================
+Working on window: 60
+ModelSelection
+Best Accuracy on validation: 0.6338573706820759
+BestLearning: 0.01
+BestDrop: 0.25
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Mean accuracy on test set
+0.5649546810237301
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+with sigmoid 
+============================================================
+============================================================
+Working on window: 1
+ModelSelection
+Best Accuracy on validation: 0.5342272367755988
+BestLearning: 1e-05
+BestDrop: 0.25
+BestNeuron: 2
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000003679299
+============================================================
+============================================================
+Working on window: 4
+ModelSelection
+Best Accuracy on validation: 0.5510948965239055
+BestLearning: 0.1
+BestDrop: 0
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000003547895
+============================================================
+============================================================
+Working on window: 12
+ModelSelection
+Best Accuracy on validation: 0.5831741138551337
+BestLearning: 0.1
+BestDrop: 0
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000007181282
+============================================================
+============================================================
+Working on window: 20
+ModelSelection
+Best Accuracy on validation: 0.6202342099256505
+BestLearning: 1e-05
+BestDrop: 0.5
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000000919824
+============================================================
+============================================================
+Working on window: 24
+ModelSelection
+Best Accuracy on validation: 0.6106154723819304
+BestLearning: 0.0001
+BestDrop: 0
+BestNeuron: 2
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.4999999996104272
+============================================================
+============================================================
+Working on window: 26
+ModelSelection
+Best Accuracy on validation: 0.6152668877596073
+BestLearning: 0.1
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000000493416
+============================================================
+============================================================
+Working on window: 30
+ModelSelection
+Best Accuracy on validation: 0.6217592606040971
+BestLearning: 0.001
+BestDrop: 0.5
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000003895728
+============================================================
+============================================================
+Working on window: 35
+ModelSelection
+Best Accuracy on validation: 0.6147595382143676
+BestLearning: 0.001
+BestDrop: 0
+BestNeuron: 2
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.49999999919993765
+============================================================
+============================================================
+Working on window: 40
+ModelSelection
+Best Accuracy on validation: 0.6024157019433988
+BestLearning: 0.1
+BestDrop: 0
+BestNeuron: 4
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5000000002069606
+============================================================
+============================================================
+Working on window: 48
+ModelSelection
+Best Accuracy on validation: 0.6130512862903457
+BestLearning: 0.0001
+BestDrop: 0.25
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5
+============================================================
+============================================================
+Working on window: 60
+ModelSelection
+Best Accuracy on validation: 0.6293574841415067
+BestLearning: 0.1
+BestDrop: 0
+BestNeuron: 3
+LOOK HOW IT WORKS WITH TEST SET....
+Accuracy on test set
+0.5
+
+​

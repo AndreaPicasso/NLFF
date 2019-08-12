@@ -1,0 +1,220 @@
+============================================================
+============================================================
+Working on window: 1
+Model Selection...
+ACCURACY on val: 0.59090555771473
+Gamma: 0.0001
+C: 10000.0
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5805921052631579
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5901201514953637
+Gamma: 0.01
+C: 316.22776601683796
+SVC(C=316.22776601683796, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5709677419354838
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5925929524549812
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.6065573770491803
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5945962183013975
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5882352941176471
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.601922891566265
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5664451827242525
+LOOK WHAT APPENS IN TIME.....
+lista di tutti i vari train e test su diversi dataset perumatati
+[0.5805921052631579, 0.5709677419354838, 0.6065573770491803, 0.5882352941176471, 0.5664451827242525]
+============================================================
+============================================================
+Working on window: 2
+Model Selection...
+ACCURACY on val: 0.587117969138875
+Gamma: 0.0001
+C: 10.0
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5636942675159236
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5917250913399823
+Gamma: 0.0001
+C: 10.0
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5451612903225806
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5726190476190477
+Gamma: 0.0001
+C: 316.22776601683796
+SVC(C=316.22776601683796, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5709219858156028
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5780331001425055
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5819397993311036
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.576347059017149
+Gamma: 0.0001
+C: 316.22776601683796
+SVC(C=316.22776601683796, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5964630225080386
+LOOK WHAT APPENS IN TIME.....
+lista di tutti i vari train e test su diversi dataset perumatati
+[0.5805921052631579, 0.5709677419354838, 0.6065573770491803, 0.5882352941176471, 0.5664451827242525, 0.5636942675159236, 0.5451612903225806, 0.5709219858156028, 0.5819397993311036, 0.5964630225080386]
+============================================================
+============================================================
+Working on window: 4
+Model Selection...
+ACCURACY on val: 0.5810126582278481
+Gamma: 0.01
+C: 10000.0
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5132450331125827
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5586231145177737
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5784982935153583
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5767489274190689
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5448504983388704
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5620338983050848
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5758064516129032
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5618025751072961
+Gamma: 0.01
+C: 10000.0
+SVC(C=10000.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5512422360248447
+LOOK WHAT APPENS IN TIME.....
+lista di tutti i vari train e test su diversi dataset perumatati
+[0.5805921052631579, 0.5709677419354838, 0.6065573770491803, 0.5882352941176471, 0.5664451827242525, 0.5636942675159236, 0.5451612903225806, 0.5709219858156028, 0.5819397993311036, 0.5964630225080386, 0.5132450331125827, 0.5784982935153583, 0.5448504983388704, 0.5758064516129032, 0.5512422360248447]
+============================================================
+============================================================
+Working on window: 10
+Model Selection...
+ACCURACY on val: 0.5342913608130999
+Gamma: 0.0001
+C: 316.22776601683796
+SVC(C=316.22776601683796, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5383211678832117
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5330712594346604
+Gamma: 0.0001
+C: 10.0
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5361216730038023
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5418502202643173
+Gamma: 0.0001
+C: 316.22776601683796
+SVC(C=316.22776601683796, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5376712328767124
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.541955479318545
+Gamma: 0.01
+C: 0.31622776601683794
+SVC(C=0.31622776601683794, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.01, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.559322033898305
+LOOK WHAT APPENS IN TIME.....
+Model Selection...
+ACCURACY on val: 0.5353448275862069
+Gamma: 0.0001
+C: 10.0
+SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=0.0001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Accuracy on TEST set: 0.5355805243445693
+LOOK WHAT APPENS IN TIME.....
+lista di tutti i vari train e test su diversi dataset perumatati
+[0.5805921052631579, 0.5709677419354838, 0.6065573770491803, 0.5882352941176471, 0.5664451827242525, 0.5636942675159236, 0.5451612903225806, 0.5709219858156028, 0.5819397993311036, 0.5964630225080386, 0.5132450331125827, 0.5784982935153583, 0.5448504983388704, 0.5758064516129032, 0.5512422360248447, 0.5383211678832117, 0.5361216730038023, 0.5376712328767124, 0.559322033898305, 0.5355805243445693]

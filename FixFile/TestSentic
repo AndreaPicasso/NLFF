@@ -1,0 +1,19 @@
+import pysentiment as ps
+#import concept_parser_line2
+import talib
+import pandas as pd
+from senticnet.senticnet import Senticnet
+hiv4 = ps.HIV4()
+tokens = hiv4.tokenize("The tax bill signed into law in December introduced a new layer of confusion to the usual muddle of GAAP and non-GAAP numbers, or those prepared under Generally Accepted Accounting Principles and those ...")
+print(tokens)
+
+
+
+for token in tokens:
+	print(token)
+	sn = Senticnet()
+	polarity_intense = sn.polarity_intense(token)
+	
+	print(polarity_intense)
+
+

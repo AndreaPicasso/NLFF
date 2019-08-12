@@ -1,0 +1,115 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import numpy as np
+import os.path
+import scipy.spatial.distance as sd
+from skip_thoughts import configuration
+from skip_thoughts import encoder_manager
+from datetime import datetime, timedelta
+from time import sleep
+import pandas as pd
+import re
+from os import listdir
+import random
+
+indexesFiles=list()
+newsFiles=list()
+files=list()
+newsFiles=listdir("/home/andrea/Desktop/NLFF/intrinioDataset")
+indexesFiles=listdir("/home/andrea/Desktop/NLFF/DataSetIndexes")
+#print(newsFiles)
+#print(indexesFiles)
+tickers=list()
+for file in indexesFiles:
+    file=re.sub('\.csv$', '', file)
+    file=re.sub('indexes', '', file)
+    tickers.append(file)
+tickers.sort()
+print(tickers)
+
+VOCAB_FILE = "/home/andrea/skip_thoughts/pretrained/skip_thoughts_uni_2017_02_02/vocab.txt"
+EMBEDDING_MATRIX_FILE = "/home/andrea/skip_thoughts/pretrained/skip_thoughts_uni_2017_02_02/embeddings.npy"
+CHECKPOINT_PATH = "/home/andrea/skip_thoughts/pretrained/skip_thoughts_uni_2017_02_02/model-501424"
+# The following directory should contain files rt-polarity.neg and
+# rt-polarity.pos.
+MR_DATA_DIR = "/home/andrea/skip_thoughts/pretrained/skip_thoughts_uni_2017_02_02"
+
+
+# Set up the encoder. Here we are using a single unidirectional model.
+# To use a bidirectional model as well, call load_model() again with
+# configuration.model_config(bidirectional_encoder=True) and paths to the
+# bidirectional model's files. The encoder will use the concatenation of
+# all loaded models.
+encoder = encoder_manager.EncoderManager()
+encoder.load_model(configuration.model_config(),
+                   vocabulary_file=VOCAB_FILE,
+                   embedding_matrix_file=EMBEDDING_MATRIX_FILE,
+                   checkpoint_path=CHECKPOINT_PATH)
+tickers = ['AAPL']
+for ticker in tickers:
+    data = list()
+    timeSpan = list()
+    print("Working on " + ticker + "...")
+
+    # VARIABILE PER SETTARE DELAY DELLE NEWS IN MIN
+    delay = 20
+    reader = pd.read_csv(
+        '/home/andrea/Desktop/NLFF/intrinioDataset/preprocessing/preprocessed/' + ticker + '.csv')  # reader = csv.DictReader(csvfile)
+    for row in reader.T.iteritems():
+        time = datetime.strptime(row[1]['PUBLICATION_DATE'], '%Y-%m-%d %H:%M:%S +%f')
+        time = time + timedelta(minutes=delay)
+        data.append({'time': time, 'summary': row[1]['SUMMARY']})
+
+    reader = pd.read_csv('/home/andrea/Desktop/NLFF/DataSetIndexes/indexes' + ticker + '.csv')
+    reader.rename(columns={'Unnamed: 0': 'date'}, inplace=True)
+    for row in reader.T.iteritems():
+        time = datetime.strptime(row[1]['date'], '%Y-%m-%d %H:%M:%S')
+        timeSpan.append(time)
+
+    i = len(data) - 1;
+    j = 0;
+
+    # Nuova colonna al dataframe per il sentiment
+    reader["embedding"] = np.nan
+
+    initDate = max(timeSpan[0], data[len(data) - 1]['time'])
+    finalDate = min(timeSpan[len(timeSpan) - 1], data[0]['time'])
+
+    # ALLINEAMENTO INIZIO
+    while (timeSpan[j] < initDate):
+        j += 1
+    while (data[i]['time'] <= initDate):
+        i -= 1
+
+    while (data[i]['time'] < finalDate and timeSpan[j] < finalDate):
+
+        totEncoding = np.zeros(2400)
+        numEncoding = 0
+
+        initTime = timeSpan[j]
+
+        while (i > 0 and timeSpan[j] > data[i]['time']):
+            if not (timeSpan[j] > data[i]['time'] and timeSpan[j - 1] <= data[i]['time']):
+                print("timeSpan[" + str(j) + "]: " + str(timeSpan[j]) + " data[" + str(i) + "] : " + str(
+                    data[i]['time']) + " timeSpan[" + str(j - 1) + "]: " + str(timeSpan[j - 1]))
+                assert False
+            try:
+                encoding = encoder.encode([data[i]['summary']])
+                print(encoding.shape)
+                totEncoding = np.add(totEncoding, encoding)
+                numEncoding += 1
+            except Exception as e:
+                print(e)
+
+
+            i -= 1
+        totEncoding = np.divide(totEncoding, numEncoding)
+        print(totEncoding)
+        j += 1
+
+        # print('normal sum: '+str(normal_sum))
+
+    # Write results
+    reader = reader[pd.isnull(reader['sentiment']) == False]
+    reader.to_csv('/home/andrea/Desktop/NLFF/DataSetWithEncoding/' + ticker + '.csv')
